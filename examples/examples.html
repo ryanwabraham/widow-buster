@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Widow Buster Example</title>
+</head>
+<body>
+    <p>Open this page in your web inspector to see how non-breaking space characters have been added to prevent unwanted text wrapping. Resize your browser to see this is action.</p>
+    <h1>Chocolate Chip Cookie Dough</h1>
+    <p class="pull-quote">"This cookie dough is so delicious, so light and yet so rich. I feel like I died and went to Flavortown."</p>
+    <p>- Guy Fieri (Not really)</p>
+    <h2>Easy to make</h2>
+    <p>Made with simple ingredients. Egg, flour, sugar, and a touch of vanilla.</p>
+    <h2>Keeps well in the freezer</h2>
+    <p>You can choose to bake all your dough at once, or you can keep it in the freezer and bake a few cookies at a time whenever you have a craving.</p>
+    <h2>Delicious</h2>
+    <p>Need I explain?</p>
+    <h2>Ready to make some dough? Here's <em>everything</em> you need:</h2>
+    <ul class="shopping-list">
+        <li>2 1/4 cups all-purpose flour</li>
+        <li>1 teaspoon baking soda</li>
+        <li>1/4 cup brown sugar</li>
+        <li>3/4 cup granulated sugar</li>
+        <li>2 tablespoons softened butter</li>
+        <li>2 cups semisweet chocolate chips</li>
+        <li>1/8 teaspoon salt</li>
+        <li>1 tablespoon milk</li>
+        <ul>
+            <li>Optional: 1 cup coarsely chopped nuts.</li>
+            <li>1/8 teaspoon vanilla</li>
+        </ul>
+    </ul>
+
+    <script src="../src/widow-buster.js"></script>
+    <script>
+        widowBuster(["h1", "h2", ".pull-quote", ".shopping-list"]);
+    </script>
+</body>
+</html>
