@@ -98,7 +98,7 @@ function isDomNode(node) {
 }
 
 function isTextNode(node) {
-  return node.nodeType == 3 ? true : false;
+  return node.nodeType == 3;
 }
 
 function joinArray(content, charToSkip) {
